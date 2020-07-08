@@ -88,8 +88,8 @@ GEM
     pg (0.20.0)
     pg (0.20.0-x64-mingw32)
     puma (3.12.6)
-    rack (2.2.3)
-    rack-test (1.1.0)
+    rack (>= 2.2.3)
+    rack-test (>= 1.1.0)
       rack (>= 1.0, < 3)
     rails (5.1.6)
       actioncable (= 5.1.6)
@@ -163,7 +163,7 @@ GEM
       railties (>= 5.0)
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.5)
+    websocket-extensions (>= 0.1.5)
 
 PLATFORMS
   ruby
